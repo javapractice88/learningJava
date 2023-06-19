@@ -3,7 +3,7 @@ package com.javapractice.operators.assignment;
 public class AssignmentOperator {
 
     public static void main(String[] args) {
-        int x = 20;
+        int x = 30;
         int y = 30, z = 50; //Simple assignment
 
         x += y; //Compound assignment // x = x + y = 20 + 30 = 50
