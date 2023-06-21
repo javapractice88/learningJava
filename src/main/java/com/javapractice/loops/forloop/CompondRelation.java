@@ -7,6 +7,7 @@ public class CompondRelation {
         for(x = 1; x < 20 && sum < 20; x++){
             sum = sum + x;
         }
+        //Example class
         System.out.println("Sum: " +sum);
     }
 }
