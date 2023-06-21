@@ -15,5 +15,12 @@ public class MultiplicationTable {
             i++;
             System.out.print("\n");
         } while (i<=13);
+
+        for(int k =1;k<=5; k++) {
+            for(int l =1;l<=5; l++) {
+                System.out.print(k*l + "\t");
+            }
+            System.out.println("\n");
+        }
     }
 }
