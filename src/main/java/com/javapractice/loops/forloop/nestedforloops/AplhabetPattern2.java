@@ -1,5 +1,10 @@
 package com.javapractice.loops.forloop.nestedforloops;
 
+/**
+ *      A
+ *   B  C  D
+ *  E F G H I
+ */
 public class AplhabetPattern2 {
 
     public static void main(String[] args) {
