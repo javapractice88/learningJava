@@ -4,7 +4,7 @@ public class AlternateSumOfHalfNumbersInArray {
 
     public static void main(String[] args) {
 
-        int nums[] = {5,6,8,2,0,3,7,1,7,30,45,23,75,64};
+        int nums[] = {5,6,8,2,0,3,7,1,7,10,45,23,75,64};
         int sum = 0;
         System.out.println("For Loop");
 
