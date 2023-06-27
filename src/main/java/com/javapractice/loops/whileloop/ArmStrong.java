@@ -1,6 +1,6 @@
 package com.javapractice.loops.whileloop;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class ArmStrong {
 
@@ -13,7 +13,7 @@ public class ArmStrong {
 
 
 
-        for (int i = 1; i<=500; i++){
+        for (int i = 1; i<=200; i++){
 
 
             int sum = 0;
