@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SumOfDecimals {
 
-    
+
 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class SumOfDecimals {
 
 
 
-                sum = sum + 1/i;
+                sum = sum + 1.0/i;
 
 
 
@@ -29,4 +29,4 @@ public class SumOfDecimals {
         }
     }
 
-}
+
