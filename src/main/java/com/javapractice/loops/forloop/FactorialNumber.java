@@ -13,12 +13,11 @@ public class FactorialNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number to calculate factorial: ");
         int facNum = sc.nextInt();
-        int factorial = 1;
+        int factorial = 0;
 
         for(int i=1; i<=facNum; i++) {
-            factorial = factorial * i;
+            factorial = factorial * i; //if facNum = 5 then for loop will iterate like this1*1=1, 1*2=2, 2*3=6, 6*4=24, 24*5=120;
         }
-
         System.out.println("Factorial of Number " + facNum + " =" + factorial);
     }
 
