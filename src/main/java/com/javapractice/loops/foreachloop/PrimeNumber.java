@@ -16,11 +16,9 @@ public class PrimeNumber {
 
         int p = 0;// temp variable
 
+        for (int i = 2; i <= primeNum - 1; i++) {// 7
 
-
-        for ( int i =2; i<=primeNum-1; i++){// 7
-
-            if (primeNum% i == 0){// 7%2, 7%3, 7%4,7%5,7%6
+            if (primeNum % i == 0) {// 7%2, 7%3, 7%4,7%5,7%6
 
                 p = 1;
 
@@ -29,18 +27,14 @@ public class PrimeNumber {
             }
 
 
-            }
-        if(p == 0){
-
-            System.out.println("It's a prime num: " +primeNum);
         }
+        if (p == 0) {
 
-        else{
+            System.out.println("It's a prime num: " + primeNum);
+        } else {
 
-            System.out.println("It's not a prime num: " +primeNum);
+            System.out.println("It's not a prime num: " + primeNum);
         }
-
-
 
 
     }

@@ -15,12 +15,10 @@ public class numberReverse {
         int reverse = 0;
 
         while (temp>0) {
-            remainder = temp % 10; //12345%10 = 5; 1234%10= 4 ; 123%10%3; 12%10 =2; 1%10 = 1
+            remainder = temp % 10; //12345%10 = 5; 1234%10= 4 ; 123%10=3; 12%10 =2; 1%10 = 1
             reverse = reverse * 10 + remainder; // 0*10 + 5 = 5; 5*10+4 = 54; 54*10+3= 543; 543*10+2 = 5432; 5432*10+1 = 54321
-            temp = temp/10; // temp = 1234; 123; 12; 1; 0
+            temp /=10; // temp = 1234; 123; 12; 1; 0
         }
-
         System.out.println("Reverse of number " + input + " is: " + reverse );
-
     }
 }
