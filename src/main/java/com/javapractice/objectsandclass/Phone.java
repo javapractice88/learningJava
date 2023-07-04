@@ -12,6 +12,7 @@ public class Phone {
     int phoneNumber;
 
 
+
     //Create a Constructor
     Phone(String brand, String color, int memory, int phoneNumber) {
         this.brand = brand;

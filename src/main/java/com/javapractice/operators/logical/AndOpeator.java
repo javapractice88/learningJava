@@ -22,7 +22,7 @@ public class AndOpeator {
 
         if((y+200) < x && (y+150) < z)
         {
-            System.out.println("Hello Java");
+           System.out.println("Hello Java");
         }
     }
 }

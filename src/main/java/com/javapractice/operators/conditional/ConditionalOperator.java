@@ -6,8 +6,8 @@ package com.javapractice.operators.conditional;
 public class ConditionalOperator {
 
     //Variable Declaration
-    int x;
-    int y;
+    int x=50;
+    int y=60;
 
     //constructor
     public ConditionalOperator(int x, int y) {
@@ -36,6 +36,7 @@ public class ConditionalOperator {
     //Main Execution
     public static void main(String[] args) {
         ConditionalOperator conditionalOperator = new ConditionalOperator(30, 40);
+        ConditionalOperator conditionalOperator1 = new ConditionalOperator(40, 40);
         conditionalOperator.greater();
         conditionalOperator.smallest();
         conditionalOperator.Equal();

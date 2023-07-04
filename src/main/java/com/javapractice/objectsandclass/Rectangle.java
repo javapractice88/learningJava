@@ -17,19 +17,20 @@ public class Rectangle {
     boolean abc = true;
     boolean abc1;
 
-    byte ac = 126;
+    byte ac = 127;
     short sh = 32767;
 
     double f = 10.44567855555555555555;
 
     String s = "asdasda678t8dadajnda87a6r545uhb/9)/&%%/(";
+    char ch = 'e';
 
     int a1 = 1;
     int a2 = 2;
 
     int[] a = {1,2,2,4,5,6};
-    String[] s1 = {"a123", "b333", "c222"};
-
+    String[] s1 = {"a123", "b333", "222"};
+    char[] ch1 = {'a', '3', '1'};
 
     //Constructor
     Rectangle(int length2, int breadth2) {
