@@ -7,6 +7,7 @@ public class FindDuplicateInAnArray {
 
     public static void main(String[] args) {
         int[] a = {1, 2, 5, 87, 34, 26, 10, 5, 54, 34};
+
         /**
          * index i=0; <=a.length-2;i++        checking index (j -> i+1; <=a.length-1;j++)
          * 0                                    1-a.length-1
