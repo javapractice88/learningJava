@@ -1,14 +1,14 @@
 package com.javapractice.arraysExamples;
 
 /**
- * write a program to find common elements in 2 array
+ * write a program to find common elements in 2 array of string
  */
-public class DuplicateElementsInTwoArrays {
+public class DuplicateStringsInTwoArrays {
 
     public static void main(String[] args) {
 
-        int[] a = {12, 32, 45, 11, 22, 98, 80, 90};
-        int[] a2 = {14, 31, 32, 43, 12, 78, 90, 9};
+        String[] a = {"Mahaboob", "Anwar", "aahil","asad"};
+        String [] a2 = {"abzal", "salma", "Aahil"};
 
         /**
          *
@@ -22,7 +22,7 @@ public class DuplicateElementsInTwoArrays {
 
             for (int j = 0; j < a2.length; j++) {
 
-                if (a[i] == a2[j]) {
+                if (a[i].equalsIgnoreCase(a2[j])) {
 
 
                     System.out.print(a[i] + ",");
