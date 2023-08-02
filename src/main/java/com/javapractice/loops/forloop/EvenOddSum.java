@@ -17,7 +17,7 @@ public class EvenOddSum {
 
         int noOfInt = integer.nextInt();
 
-        int[] a = new int[noOfInt];
+        int[] a = new int[noOfInt]; // array initialization
 
         int evenSum = 0;
         int oddSum = 0;

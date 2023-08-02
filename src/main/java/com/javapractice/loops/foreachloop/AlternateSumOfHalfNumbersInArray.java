@@ -20,7 +20,6 @@ public class AlternateSumOfHalfNumbersInArray {
             sum += nums[i];
         }
         System.out.println(sum);
-
         System.out.println("For each Loop");
         sum = 0;
         for (int each : nums) {
