@@ -19,5 +19,7 @@ public class IterateArray {
             System.out.print(b[i]+",");
         }
 
+
+
     }
 }

@@ -19,16 +19,10 @@ public class DuplicateElementsInTwoArrays {
          */
         System.out.println("Common numbers in two array: ");
         for (int i = 0; i < a.length; i++) {
-
             for (int j = 0; j < a2.length; j++) {
-
                 if (a[i] == a2[j]) {
-
-
                     System.out.print(a[i] + ",");
-
                     break;
-
                 }
             }
         }

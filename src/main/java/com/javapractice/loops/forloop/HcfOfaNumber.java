@@ -13,7 +13,6 @@ public class HcfOfaNumber {
         int num2 = sc.nextInt();
 
         int hcf = 1;
-
         int temp = (num1>num2) ? num1 : num2;
 
         for (int i=1; i<=temp; i++) {

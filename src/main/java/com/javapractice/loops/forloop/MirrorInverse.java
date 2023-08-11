@@ -5,7 +5,6 @@ public class MirrorInverse {
 
     public static void main(String[] args) {
         int arr[] = { 1, 2, 3, 0 };
-
         if (checkMirrorInverse(arr)) {
             System.out.println("The array is mirror inverse");
         } else {

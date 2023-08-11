@@ -13,19 +13,19 @@ public class PracticePrimenumber {
 
         int temp = 0;
 
-        for (int i = 2; i<num; i++){
+        for (int i = 2; i < num; i++) {
 
-            if (num%i==0){
+            if (num % i == 0) {
 
-                System.out.print("This is not a prime number: " +num);
+                System.out.print("This is not a prime number: " + num);
 
                 temp = 1;
 
                 break;
             }
         }
-        if (temp==0){
-            System.out.print("This is  a prime number: " +num);
+        if (temp == 0) {
+            System.out.print("This is  a prime number: " + num);
 
         }
     }

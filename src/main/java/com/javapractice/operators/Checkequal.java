@@ -14,12 +14,10 @@ void calu(){
     boolean compare  = (a == b);
     System.out.println ("result is:" + compare);
 
-
 }
     public static void main (String[] args)
             {
                 Checkequal compare1 = new Checkequal(23,23) ;
                 compare1.calu();
-
-    }
+            }
 }

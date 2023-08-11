@@ -19,6 +19,8 @@ public class FactorialNumber {
             factorial = factorial * i; //if facNum = 5 then for loop will iterate like this1*1=1, 1*2=2, 2*3=6, 6*4=24, 24*5=120;
         }
         System.out.println("Factorial of Number " + facNum + " =" + factorial);
+
+
     }
 
 }

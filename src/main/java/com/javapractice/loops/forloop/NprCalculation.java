@@ -4,26 +4,28 @@ package com.javapractice.loops.forloop;
  * NPR = n!/(n-r)! n= 8 r =2
  */
 public class NprCalculation {
+
     public static void main(String[] args) {
 
-        int factorial1 = 1;
-        int factorial2 = 1;
         int npr;
         int n = 8;
         int r = 2;
-
-
-        factorial1 = getFactorial(factorial1, n);
-        int less = n-r;
-        factorial2 = getFactorial(factorial2, less);
-        npr = factorial1/factorial2;
+        int factorial1 = getFactorial(n);
+        int less = n - r;
+        int factorial2 = getFactorial(less);
+        int factorial3 = getFactorial(r);
+        npr = factorial1 / factorial2;
+        int ncr = factorial1 / (factorial2 * factorial3);
         System.out.println(npr);
-}
+        System.out.println(ncr);
+    }
 
-    private static int getFactorial(int factorial2, int less) {
-        for (int i = 1; i<= less; i++){
-            factorial2 = factorial2 * i;
+    public static int getFactorial(int input) {
+        int factorial = 1;
+        for (int i = 1; i <= input; i++) {
+            factorial = factorial * i;
+        }
+        return factorial;
     }
-        return factorial2;
-    }
+
 }
