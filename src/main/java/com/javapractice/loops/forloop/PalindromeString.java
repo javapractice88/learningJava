@@ -31,18 +31,16 @@ public class PalindromeString {
 
         System.out.println(str.charAt(4));
         System.out.println(str.charAt(1));
-
-
-
         int temp = 0;
-
+        //Method1
         for (int i = 0; i < str.length() - 1/2; i++) {
             if (str.charAt(i) != str.charAt(str.length() - (i + 1))) {
                 temp = 1;
                 break;
             }
         }
-
+        //Method1
+        //User method result to print
         if (temp == 0) {
             System.out.println("This is palindrome number ");
         } else {
