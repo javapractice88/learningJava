@@ -3,7 +3,7 @@ package com.javapractice.loops;
 import java.util.Scanner;
 /**
  * Digit 2375
- *  * Sum Of Digits In an Number :- 2+3+7+5 = 19
+ *  * Sum Of Digits in a Number :- 2+3+7+5 = 17
  *  * countOfDigits Counts number of digits in a number
  */
 public class SumOfDigitsInANumber {
@@ -21,5 +21,7 @@ public class SumOfDigitsInANumber {
             temp = temp/10;
             countOfDigits= countOfDigits+1;
         }
+        System.out.println("Sum Of digits in a Number" + num + " = " + sum);
+        System.out.println("no Of digits in a Number" + num + " = " + countOfDigits);
     }
 }
