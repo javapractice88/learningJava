@@ -8,7 +8,7 @@ public class ArmStrongUsingWhile {
         while (i<=200) {
             int sum=0;
             int temp = i;
-            while (temp>0) {
+            while (temp > 0) {
                 int rem = temp % 10;
                 sum = sum + (rem*rem*rem);
                 temp = temp/10;
