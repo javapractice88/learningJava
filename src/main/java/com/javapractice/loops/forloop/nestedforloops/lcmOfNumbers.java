@@ -7,7 +7,9 @@ public class lcmOfNumbers {
 
         int greaterNum = findGreater(a, b);
         while (true) {
-            if (lcm(greaterNum, a, b)) break;
+            if (lcm(greaterNum, a, b)) {
+                break;
+            }
             greaterNum++;
         }
 
