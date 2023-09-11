@@ -1,5 +1,8 @@
 package com.javapractice.stringConcepts;
 
+/**
+ * https://www.programiz.com/java-programming/library/string/split
+ */
 public class StringSplit {
 
     public static void main(String[] args) {
