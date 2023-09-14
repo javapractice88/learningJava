@@ -46,5 +46,18 @@ public class StringContentEquals {
         result = str.toCharArray();
         System.out.println(result); // Java Programming
 
+        //Check if the charter in a string is digit or not and convert to Integer if it a digit
+        String str3 = "Ja2vr4";
+
+        for(int i=0; i<str3.length();i++) {
+            int digits = 0;
+            if(Character.isDigit(str3.charAt(i))) {
+                digits = Integer.parseInt(String.valueOf(str3.charAt(i)));
+                System.out.println(digits);
+            }
+
+        }
+
+
     }
 }
