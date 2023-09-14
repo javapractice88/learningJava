@@ -13,7 +13,7 @@ public class StringSplit {
         String s5 = "we are learning Java";
         String[] stringArray = s5.split(" ");
         System.out.println(stringArray[0]);
-
+        System.out.println(stringArray);
         for (String s: stringArray) {
             System.out.println(s);
         }
