@@ -20,12 +20,11 @@ public class StringContentEquals {
         String s1 = "Java";
         System.out.println(s1.concat("Learning"));
 
-        String s2 = "We are learning Java";
+        String s2 = "We are learning Java programming";
         System.out.println(s2.startsWith("We "));
         System.out.println(s2.startsWith("e a", 1));
 
         System.out.println(s2.endsWith("Java"));
-
 
 
         System.out.println(String.join("+", s1, "Learning"));
@@ -49,6 +48,9 @@ public class StringContentEquals {
         //Check if the charter in a string is digit or not and convert to Integer if it a digit
         String str3 = "Ja2vr4";
 
+
+
+
         for(int i=0; i<str3.length();i++) {
             int digits = 0;
             if(Character.isDigit(str3.charAt(i))) {
@@ -57,6 +59,19 @@ public class StringContentEquals {
             }
 
         }
+        
+        
+
+        String str2 = "The quick brown fox jumps over the lazy dog.";
+        int a = str2.lastIndexOf("a");
+        System.out.println(a);
+
+        String string = "zebzrazzone";
+        char charToCheck = 'z';
+
+        StringBuffer newString = new StringBuffer();
+        newString.append(string.charAt(0));
+        System.out.println(newString);
 
 
     }
