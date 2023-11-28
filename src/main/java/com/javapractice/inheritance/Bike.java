@@ -5,13 +5,15 @@ public class Bike {
     int speed;
     int gears;
 
+    private int a;
+
     //Constructor
     public Bike(int speed, int gears) {
         this.speed = speed;
         this.gears = gears;
     }
 
-    public int speedUp(int increment) {
+    private int speedUp(int increment) {
         return speed+=increment;
     }
 
