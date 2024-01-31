@@ -25,11 +25,19 @@ public class NonAbstract extends AbstractionExample1{
         return Math.PI * r *r;
     }
 
+    public static int staticMethod(int c) {
+        return c+5;
+    }
+
     public static void main(String[] args) {
         AbstractionExample1 ab = new NonAbstract(6);
         ab.abstractMethod();
         ab.test();
         ab.testAbstract(7);
+        AbstractionExample1 ab2 = new NonAbstract(6);
+        ab2.testAbstract(8);
+        NonAbstract.staticMethod(7);
+        //AbstractionExample1.staticMethod(8);
         System.out.println(ab.str);
     }
 }

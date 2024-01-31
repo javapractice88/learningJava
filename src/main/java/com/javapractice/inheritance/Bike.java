@@ -13,12 +13,12 @@ public class Bike {
         this.gears = gears;
     }
 
-    private int speedUp(int increment) {
-        return speed+=increment;
-    }
-
     public int speedDown(int decrement) {
         return speed-=decrement;
+    }
+
+    private int speedUp(int increment) {
+        return speed+=increment;
     }
 
     public String tyres() {
