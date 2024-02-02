@@ -1,5 +1,12 @@
 package com.javapractice.abstraction;
 
+import com.javapractice.inheritance.MountainBike;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
 public class NonAbstract extends AbstractionExample1{
 
     private int r;
@@ -30,6 +37,23 @@ public class NonAbstract extends AbstractionExample1{
     }
 
     public static void main(String[] args) {
+
+
+        ArrayList<MountainBike> al = new ArrayList<>();
+        MountainBike mountainBike = new MountainBike(2, 4,7);
+        MountainBike mountainBike2 = new MountainBike(3, 4,7);
+        al.add(mountainBike);
+        al.add(mountainBike2);
+
+        Iterator<MountainBike> it = al.iterator();
+        while (it.hasNext()) {
+            MountainBike bike = it.next();
+            System.out.println(bike.getSeatHeight());
+        }
+
+
+
+
         AbstractionExample1 ab = new NonAbstract(6);
         ab.abstractMethod();
         ab.test();
