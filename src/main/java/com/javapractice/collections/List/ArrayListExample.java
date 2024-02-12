@@ -13,11 +13,14 @@ public class ArrayListExample {
         al.add("zzz");
         al.add(3, "lll");
 
+
         System.out.println(al);
 
         for (String a: al) {
             System.out.println(a);
         }
+
+        al.forEach(s -> System.out.println(s));
 
         Iterator<String> it = al.iterator();
         while (it.hasNext()) {
