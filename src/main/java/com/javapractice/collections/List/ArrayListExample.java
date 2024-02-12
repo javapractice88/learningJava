@@ -1,4 +1,4 @@
-package com.javapractice.collections;
+package com.javapractice.collections.List;
 
 import java.util.*;
 
@@ -7,7 +7,6 @@ public class ArrayListExample {
     public static void main(String[] args) {
         List<String> al = new ArrayList<>();
 
-        List<String> li = new LinkedList<>();
 
         al.add("xyz");
         al.add("abc");

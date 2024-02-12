@@ -1,4 +1,4 @@
-package com.javapractice.collections;
+package com.javapractice.collections.List;
 
 import java.util.Iterator;
 import java.util.List;
@@ -14,6 +14,7 @@ public class VectorExample {
         ve.add("jjjj");
         ve.add("oooo");
         ve.add("uuuu");
+
 
         System.out.println(ve);
 
