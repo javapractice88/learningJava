@@ -2,6 +2,11 @@ package com.javapractice.collections.set;
 
 import java.util.*;
 
+/**
+ *
+ * HashSet implements Set Interface.
+ * Hashset will not contain duplicates and the elements that are stored are not ordered
+ */
 public class HashSetExample {
 
     public static void main(String[] args) {
