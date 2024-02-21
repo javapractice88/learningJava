@@ -4,6 +4,7 @@ import com.javapractice.inheritance.ExampleInterface;
 
 public class ExampleInterfaceImpl implements ExampleInterface {
 
+
     @Override
     public String checkEvenOrOdd(int i) {
         if (i % 2 == 0) {

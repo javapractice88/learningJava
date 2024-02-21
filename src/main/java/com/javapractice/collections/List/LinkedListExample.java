@@ -18,6 +18,7 @@ public class LinkedListExample {
 
         System.out.println(ll);
 
+
         Collections.sort(ll, Comparator.reverseOrder());
         System.out.println(ll);
 
