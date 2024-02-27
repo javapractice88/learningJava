@@ -97,5 +97,9 @@ public class HashMapExample {
            }
         }
 
+        // Student Marks
+        // roll No ::: 3 Subject Marks
+        //Map<Integer, Map<String, Integer>>
+
     }
 }
