@@ -1,4 +1,4 @@
-package com.javapractice.abstraction;
+package com.javapractice.arraysExamples.abstraction;
 
 public abstract class AbstractionExample1 {
 

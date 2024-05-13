@@ -3,15 +3,15 @@ package com.javapractice.exceptions;
 public class ArithmeticExceptionExample {
 
     public static void main(String[] args) {
-        int a = 15;
+        int a = 5;
         int b = 0;
         //int b = 3; Positive scenario
         int c = 0;
         try {
-                c = a/b;
+            c = a/b;
         } catch (ArithmeticException e) {
             e.printStackTrace();
-            System.out.println(e.getMessage());
+            System.out.println(e.getStackTrace());
             System.out.println(e.toString());
             System.out.println("ArithmeticException occurred here while dividing " + a + " with " + b);
         }
